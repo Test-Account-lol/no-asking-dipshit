@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="SpongeBob" name="SpongeBob SquarePants">
+<char id="002" name="SpongeBob (Original)" thumb="stand.swf" facing="left" default="stand.swf" motion="walk.swf" enable="Y" is_premium="N" aid="60" money="0" sharing="0">
+<tag>cat:SpongeBob characters</tag>
+<category name="Actions">
+<action id="stand.swf" name="Stand" loop="Y" totalframe="1" enable="Y" aid="60"/>
+</category>
+</char>
+</theme>
+

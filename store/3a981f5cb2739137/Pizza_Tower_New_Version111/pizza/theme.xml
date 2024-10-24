@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="pizza" name="Pizza Tower">
+	<char id="noise" name="noise" thumb="idle.swf" facing="left" default="idle.swf" motion="walks.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="ah.swf" name="ah" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="ah_hurt.swf" name="ah hurt" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="ballon.swf" name="ballon" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="dies.swf" name="He fucking dies" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="stand.swf" name="Stand" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="juicy_ass_noid.swf" name="butt" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fu.swf" name="slap" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="FUCKNO.swf" name="FUCK NO I DONT NEED THIS SHIT" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fun.swf" name="fun" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="giveup.swf" name="give up bitch" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="haha.swf" name="haha" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="hey_peppino_its3am.swf" name="watch" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="hurt.swf" name="hurt" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="i_will_kick_your_ass_peppino.swf" name="kick" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match_silde.swf" name="match silde" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match0.swf" name="match0" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match1.swf" name="match1" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="mid.swf" name="mid" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="no_bitch.swf" name="no" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="p.swf" name="p" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="pogo.swf" name="pogo" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="s.swf" name="s" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="slam.swf" name="slam" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="slam2.swf" name="slam 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="smoke.swf" name="smoke" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="smoke2.swf" name="smoke 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="spin.swf" name="spin" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="splat.swf" name="splat" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="uk.swf" name="tea" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="um.swf" name="um" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="walks.swf" name="walks" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="wild.swf" name="wild" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+	</char>
+	<char id="brick" name="Brick" thumb="mouse_brick.swf" facing="left" default="mouse_brick.swf" motion="move_brick.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="ah_brick.swf" name="hurted brick" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="little_1.swf" name="little Brick" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="little_2.swf" name="Hurted Little Brick" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="mouse_brick.swf" name="brick" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="move_brick.swf" name="walks brick" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+	</char>
+	<char id="pizzaface" name="Pizza Face" thumb="idle.swf" facing="left" default="idle.swf" motion="idle.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="broken.swf" name="broken" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="game_over.swf" name="game over" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="haha.swf" name="haha" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="haha2.swf" name="haha 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="intro.swf" name="non villan" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="jump.swf" name="jump" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="moustache.swf" name="moustache" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="nose.swf" name="nose" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="O.swf" name="O" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="O_2.swf" name="O 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="O_3.swf" name="O 3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="sad.swf" name="sad" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="scared.swf" name="scared" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="pepperman" name="Pepper Man" thumb="idle.swf" facing="left" default="idle.swf" motion="walks.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="'_'.swf" name="'_'" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="ah.swf" name="ah" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="AH_2.swf" name="AH 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="AHH_3.swf" name="AHH 3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="badass.swf" name="badass??" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="ground.swf" name="groundpound" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="jump.swf" name="jump" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="kick.swf" name="shoulder or idk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="kick2.swf" name="shoulder 2 or idk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="laugh.swf" name="O 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="shoulderloop.swf" name="shoulder loop" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walks.swf" name="walks" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="pillar_john" name="pillar John" thumb="new_idle.swf" facing="left" default="new_idle.swf" motion="punch.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="allpizza_athim.swf" name="all pizza at him" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="angry.swf" name="angry" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="hungry.swf" name="hungry" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="broken.swf" name="broken" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="happy.swf" name="happy" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="new_die.swf" name="he died" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="new_idle.swf" name="Idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="new_scared.swf" name="Scared" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="old_angry.swf" name="Old Angry" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="old_happy.swf" name="old happy" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="old_idle.swf" name="Old Idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="old_talk.swf" name="Old Talk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="old_talk2.swf" name="Old Talk 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="old_die.swf" name="Old Die" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="punch.swf" name="Punch" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="peppino" name="peppino" thumb="idle.swf" facing="left" default="idle.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="bana.swf" name="bana" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="body_slam.swf" name="body slam" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="cilmb.swf" name="cilmb" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="crawl.swf" name="crawl" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="crazyrun.swf" name="crazy run" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="crouch_fall.swf" name="crouch fall" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="crouch_slide.swf" name="crouch slide" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="entergate.swf" name="enter gate" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="face.swf" name="Pizza Face" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="facehurtup.swf" name="face hurtup" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall.swf" name="fall" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="golf_kick.swf" name="golf kick" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="groundpoundjump.swf" name="ground pound jump" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="hit.swf" name="hit" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="hurtidle.swf" name="hurt idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="i.swf" name="i" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="jump.swf" name="jump" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="jump_hurt.swf" name="jump hurt" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="levelcomplete.swf" name="level complete" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="peter.swf" name="mig you grounded fuck you" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="pinch.swf" name="pinch" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="pizza.swf" name="pizza" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="punch1.swf" name="punch" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="s.swf" name="s" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="ska.swf" name="ska" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="spin.swf" name="spin" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="super.swf" name="super" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="thr.swf" name="thr" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="vomit.swf" name="vomit" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk.swf" name="walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk_hurt.swf" name="walk hurt" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="wallsplat.swf" name="wall splat" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="rick_and_morty.swf" name="badass?" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="pacman.swf" name="pacman lol" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="startrun.swf" name="startrun" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="run.swf" name="Match 1" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk.swf" name="Idk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk2.swf" name="Idk 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk3.swf" name="Idk 3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="wake.swf" name="Wakes Up" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="sleep.swf" name="Sleeping" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="scream.swf" name="Screaming" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="scream2.swf" name="Screaming 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="scream3.swf" name="Screaming 3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="scream4.swf" name="Screaming 4" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="bite.swf" name="Bites his Finger" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="fake_peppino" name="fake peppino" thumb="idle.swf" facing="left" default="idle.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="ballon.swf" name="ballon" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="bite.swf" name="bite" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="bodyslam_jump.swf" name="bodyslam_jump" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="bodyslam_start.swf" name="bodyslam_start" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="brain1.swf" name="brain1" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="brain2.swf" name="brain2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall.swf" name="fall" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall2.swf" name="fall2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall3.swf" name="fall3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="head.swf" name="head" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="head2.swf" name="head2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk.swf" name="idk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk2.swf" name="idk2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk3.swf" name="idk3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="intro.swf" name="intro" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="lick.swf" name="lick" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="longass.swf" name="longass guy" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="melt_1.swf" name="melt_1" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="melt_2.swf" name="melt_2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="push.swf" name="push" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="run1.swf" name="Running" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk.swf" name="walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="gust" name="gust" thumb="idle.swf" facing="left" default="idle.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="cilmb.swf" name="cilmb" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="freeze.swf" name="freeze" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle2.swf" name="idle 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk.swf" name="walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk2.swf" name="walk 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="vgilante" name="vgilante" thumb="idle.swf" facing="left" default="idle.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="angryidle.swf" name="Angry Idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="angryidle2.swf" name="Angry Idle 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="bazoo.swf" name="Bah zoo ka" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="call.swf" name="Calling" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="crouch_walk.swf" name="crouch_walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="dash_boots.swf" name="dash_boots" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="flamethower.swf" name="flamethower" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="gun.swf" name="gun" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="gun_shoot.swf" name="gun_shoot" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="holding_gun.swf" name="holding_gun" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="hurt.swf" name="hurt" loop="N" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="scared.swf" name="Scared" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="throw.swf" name="Throw" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk.swf" name="walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="walk_boots.swf" name="walk_boots" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="snick" name="Snick" thumb="idle.swf" facing="left" default="idle.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match1.swf" name="match1" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match2.swf" name="match2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match3.swf" name="match3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="oof.swf" name="oof" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="snick.exe.swf" name="snick.exe" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="victory.swf" name="victory" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk.swf" name="walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="coneball" name="coneball" thumb="idle.swf" facing="left" default="idle.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Sugary spire</tag>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="evil.swf" name="evil" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="evil_idle.swf" name="evil_idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="evil_left_andright.swf" name="evil_left_andright" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk.swf" name="idk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk2.swf" name="idk 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idle2.swf" name="idle 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="left_andright.swf" name="left_andright" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="pizzano" name="pizzano" thumb="idle.swf" facing="left" default="idle.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Sugary spire</tag>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall.swf" name="fall" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall2.swf" name="fall2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match1.swf" name="match1" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match2.swf" name="match2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match3.swf" name="match3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="ouch.swf" name="ouch" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="roll.swf" name="roll" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="spin.swf" name="idk 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk.swf" name="walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="welcomelol.swf" name="welcome lol" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="pizzelle" name="Pizzelle" thumb="idle.swf" facing="left" default="idle.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Sugary spire</tag>
+		<action id="idle.swf" name="idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="angry.swf" name="angry" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="angry2.swf" name="angry2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="angrywalk.swf" name="angrywalk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="climb.swf" name="climb" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="crouch.swf" name="crouch" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="crouch_walk.swf" name="crouch_walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="crouch2.swf" name="crouch2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="grab.swf" name="grab" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idfk.swf" name="idfk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="welcomebitch.swf" name="welcome bitch" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idfk2.swf" name="idfk2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall.swf" name="fall" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall2.swf" name="fall2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall3.swf" name="fall3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idfk3.swf" name="idfk3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idfk4.swf" name="idfk4" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="jump.swf" name="jump" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match_fuck.swf" name="match_fuck" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match1.swf" name="match1" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match1again.swf" name="match1again" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="oh.swf" name="oh" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="match2.swf" name="match2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="oof.swf" name="oof" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="oof2.swf" name="oof2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="oof3.swf" name="oof3" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="ragewalk.swf" name="idk 2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walk.swf" name="walk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="roll.swf" name="welcome lol" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="mort" name="Mort The Chicken" thumb="idle.swf" facing="left" default="idle.swf" motion="walks.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="idle.swf" name="Idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="fall.swf" name="Fall" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walks.swf" name="walks" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="gerome" name="Gerome" thumb="idle.swf" facing="left" default="idle.swf" motion="walks.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="idle.swf" name="Idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="open.swf" name="Opens" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="sleep.swf" name="Sleeps" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walks.swf" name="walks" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<char id="pizzahead" name="Pizzahead" thumb="idle.swf" facing="left" default="idle.swf" motion="walks.swf" enable="Y" is_premium="N" aid="9001" money="0" sharing="0">
+        <tag>cat:Pizza tower</tag>
+		<action id="idle.swf" name="Idle" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk.swf" name="idk" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="idk2.swf" name="idk2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="grab.swf" name="Grab" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="gun.swf" name="gun" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="gun2.swf" name="gun2" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="laugh.swf" name="Laughs" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<action id="shy.swf" name="Shy" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		<motion id="walks.swf" name="walks" loop="Y" totalframe="30" enable="Y" aid="90036"/>
+		</char>
+	<background id="template_background.swf" name="Template Background" enable="Y" is_premium="N" aid="9999" money="0" sharing="0" />
+	<prop id="template_prop.swf" name="Template Prop" holdable="0" wearable="0" placeable="1" facing="left" thumb="" aid="9004" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="peppino-scream_oYaUb09.mp3" name="Peppino Screaming" subtype="soundeffect" duration="2990" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="pepperman-scared.mp3" name="Pepperman Scared" subtype="soundeffect" duration="2990" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="noise-soundboard-screaming.mp3" name="Noise screaming" subtype="soundeffect" duration="2990" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="lario-pizza-tower.mp3" name="Lario" subtype="soundeffect" duration="2990" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="sfx_taunt.mp3" name="Taunt" subtype="soundeffect" duration="2990" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+    <sound id="woag.mp3" name="Woag" subtype="soundeffect" duration="2990" downloadtype="progressive" aid="24304" enable="Y" is_premium="N" money="0" sharing="0" />
+	</theme>

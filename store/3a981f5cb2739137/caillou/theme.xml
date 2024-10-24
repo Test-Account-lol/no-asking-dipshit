@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="caillou" name="Caillou">
+	<background id="ncc_interior_left02.swf" name="Interior left"/>
+	<background id="wall17.swf" name="Interior" is_premium="Y"/>
+	<prop id="lamp_floor.swf" name="Lamp (floor)" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="msp_sofa01" name="sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa01_sofa01_front.swf">
+		<state id="msp_sofa01_sofa01_front.swf" name="front" default="Y"/>
+		<state id="msp_sofa01_sofa01_side.swf" name="side"/>
+	</prop>
+	<prop id="msp_gbwindow" name="Window with curtain" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_gbwindow_ncc_gbwindow_side01.swf">
+		<state id="msp_gbwindow_ncc_gbwindow_side01.swf" name="opened curtain" default="Y"/>
+		<state id="msp_gbwindow_ncc_gbwindow_side02.swf" name="closed curtain"/>
+		<state id="msp_gbwindow_ncc_gbwindow_front01.swf" name="opened curtain"/>
+		<state id="msp_gbwindow_ncc_gbwindow_front02.swf" name="closed curtain"/>
+	</prop>
+	<prop id="msp_cafesofa" name="One-seater sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cafesofa_ncc_cafesofa_front.swf">
+		<state id="msp_cafesofa_ncc_cafesofa_front.swf" name="front" default="Y"/>
+		<state id="msp_cafesofa_ncc_cafesofa_side.swf" name="side"/>
+	</prop>
+	<prop id="ncc_tocarpet.swf" name="Carpet" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="msp_fridge" name="Fridge" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_fridge_fridge_front_close.swf">
+		<state id="msp_fridge_fridge_front_close.swf" name="front closed" default="Y"/>
+		<state id="msp_fridge_fridge_front_open.swf" name="front opened"/>
+		<state id="msp_fridge_fridge_side_close.swf" name="side closed"/>
+		<state id="msp_fridge_ncc_fridgeside_open.swf" name="side opened"/>
+	</prop>
+	<prop id="msp_oven" name="Oven" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_oven_oven.swf">
+		<state id="msp_oven_oven.swf" name="front - off" default="Y"/>
+		<state id="msp_oven_ncc_oven_frontfire.swf" name="front - on"/>
+		<state id="msp_oven_ncc_oven_frontopen.swf" name="front - opened"/>
+		<state id="msp_oven_ncc_oven_sidefire.swf" name="side - on"/>
+		<state id="msp_oven_ncc_oven_sideopen.swf" name="side - opened"/>
+		<state id="msp_oven_ncc_oven_side.swf" name="side - off"/>
+	</prop>
+	<prop id="msp_kitchen_sink" name="Kitchen area" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_kitchen_sink_kitchen_sink_empty.swf">
+		<state id="msp_kitchen_sink_kitchen_sink_empty.swf" name="empty" default="Y"/>
+		<state id="msp_kitchen_sink_kitchen_sink_flowing.swf" name="water flowing"/>
+		<state id="msp_kitchen_sink_kitchen_area01.swf" name="kitchen area"/>
+		<state id="msp_kitchen_sink_msp_kitchen_ncc_kitchensink_side_empty.swf" name="side - empty"/>
+		<state id="msp_kitchen_sink_msp_kitchen_ncc_kitchensink_side_flowing.swf" name="side - flowing"/>
+	</prop>
+	<prop id="ncc_cafestand03.swf" name="Counter" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="msp_dining_table" name="Dining table" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_dining_table_dining_table_front.swf">
+		<state id="msp_dining_table_dining_table_front.swf" name="front" default="Y"/>
+		<state id="msp_dining_table_dining_table_side.swf" name="side"/>
+	</prop>
+	<prop id="square01.swf" name="Square" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="ncc_hhouse01.swf" name="House" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="bushes.swf" name="Bush" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="cloud.swf" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="school_ext_tree02.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="msp_car01" name="Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_car01_ncc_car01_full.swf">
+		<state id="msp_car01_ncc_car01_full.swf" name="still" default="Y"/>
+		<state id="msp_car01_ncc_car01_on.swf" name="driving"/>
+		<state id="msp_car01_ncc_car01_cover.swf" name="front (transparent)"/>
+		<state id="msp_car01_ncc_car01_back.swf" name="back"/>
+		<state id="msp_car01_ncc_car01_ontran.swf" name="driving (transparent)"/>
+	</prop>
+	<prop id="msp_bed" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bed_ncc_gbbed_front.swf">
+		<state id="msp_bed_ncc_gbbed_front.swf" name="front" default="Y"/>
+		<state id="msp_bed_ncc_gbbed_side.swf" name="side"/>
+	</prop>
+	<prop id="msp_blanket01" name="Blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_blanket01_ncc_blanket01_front.swf">
+		<state id="msp_blanket01_ncc_blanket01_front.swf" name="front" default="Y"/>
+		<state id="msp_blanket01_ncc_blanket01_side.swf" name="side"/>
+		<state id="msp_blanket01_ncc_blanket01_front_empty.swf" name="front - empty"/>
+		<state id="msp_blanket01_ncc_blanket01_side_empty.swf" name="side - empty"/>
+	</prop>
+		<prop id="msp_pillow02" name="Pillow" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_pillow02_ncc_pillow02_front.swf">
+		<state id="msp_pillow02_ncc_pillow02_front.swf" name="front" default="Y"/>
+		<state id="msp_pillow02_ncc_pillow02_side.swf" name="side"/>
+	</prop>
+	<prop id="table_square.swf" name="Table (square)" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="msp_bosscha" name="Boss chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bosscha_ncc_boss_chair_front.swf">
+		<state id="msp_bosscha_ncc_boss_chair_front.swf" name="side" default="Y"/>
+		<state id="msp_bosscha_boss_chair.swf" name="front"/>
+	</prop>
+	<prop id="msp_compcase01" name="Computer" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_compcase01_ncc_compcase_front.swf">
+		<state id="msp_compcase01_ncc_compcase_back.swf" name="back"/>
+		<state id="msp_compcase01_ncc_compcase_front.swf" name="front" default="Y"/>
+		<state id="msp_compcase01_ncc_compcase_side.swf" name="side"/>
+	</prop>
+	<prop id="msp_flat_tv" name="Flat screen TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_flat_tv_flat_tv_front.swf">
+		<state id="msp_flat_tv_flat_tv_front.swf" name="front" default="Y"/>
+		<state id="msp_flat_tv_flat_tv_front_non.swf" name="front transparent"/>
+		<state id="msp_flat_tv_flat_tv_back.swf" name="back"/>
+		<state id="msp_flat_tv_flat_tv_side.swf" name="side"/>
+		<state id="msp_flat_tv_flat_tv_side_back.swf" name="side back"/>
+	</prop>
+	<prop id="msp_keyboard01" name="Keyboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_keyboard01_ncc_keyboard_front.swf">
+		<state id="msp_keyboard01_ncc_keyboard_back.swf" name="back"/>
+		<state id="msp_keyboard01_ncc_keyboard_front.swf" name="front" default="Y"/>
+		<state id="msp_keyboard01_ncc_keyboard_side.swf" name="side"/>
+		<state id="msp_keyboard01_ncc_keyboard_sideback.swf" name="sideback"/>
+	</prop>
+	<prop id="circle01.swf" name="Circle" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="msp_window01" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_window01_ncc_window01_day.swf">
+		<state id="msp_window01_ncc_window01_day.swf" name="front - day time" default="Y"/>
+		<state id="msp_window01_ncc_window01_night01.swf" name="front - night time"/>
+		<state id="msp_window01_ncc_window01_night02.swf" name="front - night time - no blinds"/>
+		<state id="msp_window01_ncc_window01_side_day.swf" name="side - daytime" default="Y"/>
+	</prop>
+	<prop id="restaurant_picture.swf" name="Picture" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="msp_bookshelf" name="Bookshelves" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bookshelf_bookshelf_full.swf">
+		<state id="msp_bookshelf_bookshelf_empty.swf" name="empty"/>
+		<state id="msp_bookshelf_bookshelf_full.swf" name="full" default="Y"/>
+		<state id="msp_bookshelf_ncc_bookshelf_sideempty.swf" name="side - empty" default="Y"/>
+		<state id="msp_bookshelf_ncc_bookshelf_sidefull.swf" name="side - full" default="Y"/>
+	</prop>
+	<prop id="lamp_table.swf" name="Lamp (table)" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="ncc_gbseat.swf" name="Stool" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<prop id="msp_desk" name="Make up table" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_desk_ncc_gbdesk01.swf">
+		<state id="msp_desk_ncc_gbdesk01.swf" name="stuff on" default="Y"/>
+		<state id="msp_desk_ncc_gbdesk02.swf" name="tidied"/>
+		<state id="msp_desk_ncc_gbdesk01_side.swf" name="side - stuff on"/>
+		<state id="msp_desk_ncc_gbdesk02_side.swf" name="side - tidied"/>
+	</prop>
+	<prop id="msp_gbblanket01" name="Blanket" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_gbblanket01_ncc_gbblanket01empty_front.swf" is_premium="Y">
+		<state id="msp_gbblanket01_ncc_gbblanket01empty_front.swf" name="front - empty" default="Y"/>
+		<state id="msp_gbblanket01_ncc_gbblanket01empty_side.swf" name="side - empty"/>
+		<state id="msp_gbblanket01_ncc_gbblanket01full_front.swf" name="front - occupied"/>
+		<state id="msp_gbblanket01_ncc_gbblanket01full_side.swf" name="side - occupied"/>
+	</prop>
+	<prop id="msp_gbstand" name="Shelf" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_gbstand_ncc_gbstand01.swf" is_premium="Y">
+		<state id="msp_gbstand_ncc_gbstand01.swf" name="books" default="Y"/>
+		<state id="msp_gbstand_ncc_gbstand02.swf" name="stuff"/>
+		<state id="msp_gbstand_ncc_gbstand03.swf" name="cleared"/>
+		<state id="msp_gbstand_ncc_gbstand01_side.swf" name="side - books"/>
+		<state id="msp_gbstand_ncc_gbstand02_side.swf" name="side - stuff"/>
+		<state id="msp_gbstand_ncc_gbstand03_side.swf" name="side - cleared"/>
+	</prop>
+	<prop id="msp_office_desk" name="Office desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_office_desk_office_desk_front.swf">
+		<state id="msp_office_desk_office_desk_front.swf" name="front" default="Y"/>
+		<state id="msp_office_desk_office_desk_side.swf" name="side"/>
+		<state id="msp_office_desk_office_desk_back.swf" name="back"/>
+		<state id="msp_office_desk_ncc_officedesk_front_open01.swf" name="front - top drawer opening"/>
+		<state id="msp_office_desk_ncc_officedesk_front_open02.swf" name="front - bottom drawer opening"/>
+		<state id="msp_office_desk_ncc_officedesk_side.swf" name="side"/>
+		<state id="msp_office_desk_ncc_officedesk_side_open01.swf" name="side - top drawer opening"/>
+		<state id="msp_office_desk_ncc_officedesk_side_open02.swf" name="side - bottom drawer opening"/>
+	</prop>
+	<prop id="office_chair.swf" name="Chair" holdable="0" placeable="1" wearable="0" facing="left"/>
+	<compositebg id="house" name="House" enable="Y" default="Y" thumb="house.png" display_order="1" is_premium="N" money="0" sharing="0">
+		<prop id="PROP3" index="1">
+			<file>caillou.square01.swf</file>
+			<x>321.3703757</x>
+			<y>149</y>
+			<xscale>9.1849738</xscale>
+			<yscale>3.478445</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">6994134</color>
+		</prop>
+		<prop id="PROP5" index="2">
+			<file>caillou.square01.swf</file>
+			<x>321.4453757</x>
+			<y>303.3</y>
+			<xscale>9.1849738</xscale>
+			<yscale>1.7570814</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">8370961</color>
+		</prop>
+		<prop id="PROP6" index="4">
+			<file>caillou.ncc_hhouse01.swf</file>
+			<x>329.8859732</x>
+			<y>202.5208828</y>
+			<xscale>0.5610704</xscale>
+			<yscale>0.5610704</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">1048831</color>
+			<color r="ccColorB">16711680</color>
+			<color r="ccColorC">28683</color>
+			<color r="ccColorD">16514043</color>
+			<color r="ccColorE">16711680</color>
+		</prop>
+		<prop id="PROP7" index="5">
+			<file>caillou.bushes.swf</file>
+			<x>260.7224298</x>
+			<y>251.4881414</y>
+			<xscale>0.8430972</xscale>
+			<yscale>0.8430972</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP9" index="6">
+			<file>caillou.bushes.swf</file>
+			<x>400.0276462</x>
+			<y>251.4606446</y>
+			<xscale>0.8430971</xscale>
+			<yscale>0.8430971</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP11" index="7">
+			<file>caillou.ncc_hhouse01.swf</file>
+			<x>329.8646102</x>
+			<y>96.4208828</y>
+			<xscale>0.4155904</xscale>
+			<yscale>0.4155904</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">1048831</color>
+			<color r="ccColorB">16711680</color>
+			<color r="ccColorC">28683</color>
+			<color r="ccColorD">16514043</color>
+			<color r="ccColorE">16711680</color>
+		</prop>
+		<prop id="PROP12" index="8">
+			<file>caillou.square01.swf</file>
+			<x>329.8816837</x>
+			<y>111.475</y>
+			<xscale>0.959811</xscale>
+			<yscale>1.028381</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">1048831</color>
+		</prop>
+		<prop id="PROP14" index="9">
+			<file>caillou.square01.swf</file>
+			<x>278.5010047</x>
+			<y>139.425</y>
+			<xscale>0.959811</xscale>
+			<yscale>0.083278</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">1048831</color>
+		</prop>
+		<prop id="PROP17" index="11">
+			<file>caillou.cloud.swf</file>
+			<x>109.225</x>
+			<y>76.3670081</y>
+			<xscale>0.319675</xscale>
+			<yscale>0.319675</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP19" index="12">
+			<file>caillou.cloud.swf</file>
+			<x>549.5170081</x>
+			<y>72.0670081</y>
+			<xscale>0.319675</xscale>
+			<yscale>0.319675</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP20" index="13">
+			<file>custom.school_ext_tree02.swf</file>
+			<x>519.325</x>
+			<y>200.2932841</y>
+			<xscale>0.7313643</xscale>
+			<yscale>0.7313643</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP23" index="3">
+			<file>caillou.square01.swf</file>
+			<x>471.8553293</x>
+			<y>321.375</y>
+			<xscale>4.1456798</xscale>
+			<yscale>1.1445466</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">10066329</color>
+		</prop>
+		<prop id="PROP24" index="15">
+			<file>caillou.msp_car01.msp_car01_ncc_car01_full.swf</file>
+			<x>485.95</x>
+			<y>309.3903215</y>
+			<xscale>0.4801624</xscale>
+			<yscale>0.4801624</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">16711680</color>
+			<color r="ccColorB">1048831</color>
+		</prop>
+		<prop id="PROP26" index="14">
+			<file>caillou.square01.swf</file>
+			<x>329.8575364</x>
+			<y>310.35</y>
+			<xscale>0.7342186</xscale>
+			<yscale>1.4965478</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">10066329</color>
+		</prop>
+		<prop id="PROP28" index="16">
+			<file>custom.school_ext_tree02.swf</file>
+			<x>121.85</x>
+			<y>202.5432841</y>
+			<xscale>0.7313643</xscale>
+			<yscale>0.7313643</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP16" index="10">
+			<file>caillou.square01.swf</file>
+			<x>382.4510047</x>
+			<y>139.375</y>
+			<xscale>0.959811</xscale>
+			<yscale>0.083278</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">1048831</color>
+		</prop>
+	</compositebg>
+	<compositebg id="living_room" name="Living Room" enable="Y" default="N" thumb="living_room.png" display_order="2" is_premium="N" money="0" sharing="0">
+		<bg id="cbg_living_rm02_BG869" index="0">
+			<file>caillou.ncc_interior_left02.swf</file>
+			<color r="wall">16777215</color>
+			<color r="sidewall">16777215</color>
+			<color r="floor">10132122</color>
+		</bg>
+		<prop id="cbg_living_rm02_PROP309" index="1" attached="Y">
+			<file>caillou.lamp_floor.swf</file>
+			<x>218.025</x>
+			<y>161.225</y>
+			<xscale>0.8806986</xscale>
+			<yscale>0.8806986</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorB">30507</color>
+			<color r="ccColorA">10239</color>
+		</prop>
+		<prop id="PROP39" index="2">
+			<file>caillou.msp_sofa01.msp_sofa01_sofa01_front.swf</file>
+			<x>377.7533109</x>
+			<y>201.025</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">10239</color>
+		</prop>
+		<prop id="PROP42" index="3">
+			<file>caillou.msp_gbwindow.msp_gbwindow_ncc_gbwindow_side01.swf</file>
+			<x>100.1910499</x>
+			<y>149.3333333</y>
+			<xscale>0.6419945</xscale>
+			<yscale>0.6419945</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">10132122</color>
+			<color r="ccColorB">30507</color>
+			<color r="ccColorC">30507</color>
+		</prop>
+		<prop id="PROP40" index="4">
+			<file>caillou.msp_cafesofa.msp_cafesofa_ncc_cafesofa_side.swf</file>
+			<x>136.5243171</x>
+			<y>260.5</y>
+			<xscale>0.8777482</xscale>
+			<yscale>0.8777482</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">10239</color>
+		</prop>
+		<prop id="PROP41" index="5">
+			<file>caillou.ncc_tocarpet.swf</file>
+			<x>322</x>
+			<y>309.325</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorB">39680</color>
+			<color r="ccColorA">15794176</color>
+		</prop>
+	</compositebg>
+	<compositebg id="kitchen" name="Kitchen" enable="Y" default="N" thumb="kitchen.png" display_order="3" is_premium="N" money="0" sharing="0">
+		<bg id="cbg_living_rm02_BG869" index="0">
+			<file>caillou.ncc_interior_left02.swf</file>
+			<color r="wall">16777215</color>
+			<color r="sidewall">16777215</color>
+			<color r="floor">16703909</color>
+		</bg>
+		<prop id="PROP50" index="1">
+			<file>caillou.msp_fridge.msp_fridge_fridge_front_close.swf</file>
+			<x>237.6</x>
+			<y>163.8968107</y>
+			<xscale>0.8724291</xscale>
+			<yscale>0.8724291</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP51" index="2">
+			<file>caillou.msp_oven.msp_oven_oven.swf</file>
+			<x>321.95</x>
+			<y>190.525</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">16762665</color>
+		</prop>
+		<prop id="PROP52" index="3">
+			<file>caillou.msp_kitchen_sink.msp_kitchen_sink_kitchen_sink_empty.swf</file>
+			<x>419.95</x>
+			<y>178.2522812</y>
+			<xscale>0.9087502</xscale>
+			<yscale>0.9087502</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">16777215</color>
+		</prop>
+		<prop id="PROP53" index="4">
+			<file>caillou.ncc_cafestand03.swf</file>
+			<x>534.30268</x>
+			<y>201</y>
+			<xscale>0.8458926</xscale>
+			<yscale>0.8458926</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">16777215</color>
+		</prop>
+		<prop id="PROP57" index="5">
+			<file>caillou.msp_cafesofa.msp_cafesofa_ncc_cafesofa_side.swf</file>
+			<x>154.575</x>
+			<y>277.3</y>
+			<xscale>0.9865864</xscale>
+			<yscale>0.9865864</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">621100</color>
+		</prop>
+		<prop id="PROP55" index="6">
+			<file>caillou.msp_dining_table.msp_dining_table_dining_table_front.swf</file>
+			<x>317.1</x>
+			<y>290.9271423</y>
+			<xscale>0.9143079</xscale>
+			<yscale>0.9143079</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">2842838</color>
+		</prop>
+		<prop id="PROP59" index="7">
+			<file>caillou.msp_cafesofa.msp_cafesofa_ncc_cafesofa_side.swf</file>
+			<x>499.925</x>
+			<y>280.375</y>
+			<xscale>0.9865864</xscale>
+			<yscale>0.9865864</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">621100</color>
+		</prop>
+	</compositebg>
+	<compositebg id="ca_bedroom" name="Caillou's Bedroom" enable="Y" default="N" thumb="ca_bedroom.png" display_order="4" is_premium="N" money="0" sharing="0">
+		<bg id="cbg_ncc_gbrm_BG7" index="0">
+			<file>caillou.wall17.swf</file>
+			<color r="ccColorA">16775343</color>
+			<color r="ccColorB">16775343</color>
+			<color r="ccColorC">13750737</color>
+			<color r="ccColorD">146372</color>
+		</bg>
+		<prop id="PROP54" index="1">
+			<file>caillou.msp_bed.msp_bed_ncc_gbbed_side.swf</file>
+			<x>277.3911642</x>
+			<y>201.0205821</y>
+			<xscale>0.823284</xscale>
+			<yscale>0.823284</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">621354</color>
+		</prop>
+		<prop id="PROP56" index="2">
+			<file>caillou.msp_blanket01.msp_blanket01_ncc_blanket01_side_empty.swf</file>
+			<x>281.45</x>
+			<y>220.375</y>
+			<xscale>1.0754307</xscale>
+			<yscale>0.7527157</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">9928285</color>
+		</prop>
+		<prop id="PROP58" index="5">
+			<file>caillou.msp_blanket01.msp_blanket01_ncc_blanket01_side_empty.swf</file>
+			<x>304.675</x>
+			<y>220.4</y>
+			<xscale>0.8787037</xscale>
+			<yscale>0.8555095</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">6925819</color>
+		</prop>
+		<prop id="PROP59" index="4">
+			<file>caillou.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+			<x>194.1403406</x>
+			<y>214.58392</y>
+			<xscale>0.6136248</xscale>
+			<yscale>0.6136248</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">16640000</color>
+		</prop>
+		<prop id="PROP62" index="3">
+			<file>caillou.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+			<x>223.6903406</x>
+			<y>194.4596594</y>
+			<xscale>0.6136248</xscale>
+			<yscale>0.6136248</yscale>
+			<face>1</face>
+		  <rotation>0</rotation>
+		  <color r="ccColorA">32767</color>
+		</prop>
+		<prop id="PROP63" index="6">
+			<file>caillou.table_square.swf</file>
+			<x>115.1</x>
+			<y>286.1072797</y>
+			<xscale>0.7705565</xscale>
+			<yscale>0.7705565</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">9856048</color>
+		</prop>
+		<prop id="PROP65" index="7">
+			<file>caillou.msp_bosscha.msp_bosscha_ncc_boss_chair_front.swf</file>
+			<x>223.5839094</x>
+			<y>269.75</y>
+			<xscale>0.6436242</xscale>
+			<yscale>0.6436242</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">16640000</color>
+		</prop>
+		<prop id="PROP66" index="8">
+			<file>caillou.msp_compcase01.msp_compcase01_ncc_compcase_side.swf</file>
+			<x>102.4750965</x>
+			<y>306.6876795</y>
+			<xscale>0.5071819</xscale>
+			<yscale>0.5071819</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP67" index="10">
+			<file>caillou.msp_flat_tv.msp_flat_tv_flat_tv_side.swf</file>
+			<x>106.15</x>
+			<y>232.675</y>
+			<xscale>0.4969352</xscale>
+			<yscale>0.4969352</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP68" index="11">
+			<file>caillou.msp_keyboard01.msp_keyboard01_ncc_keyboard_side.swf</file>
+			<x>154.1664822</x>
+			<y>262.05</y>
+			<xscale>0.3407107</xscale>
+			<yscale>0.3407107</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP69" index="12">
+			<file>caillou.circle01.swf</file>
+			<x>180.1211433</x>
+			<y>246.4029479</y>
+			<xscale>0.1534082</xscale>
+			<yscale>0.2880697</yscale>
+			<face>1</face>
+			<rotation>-89.5781228</rotation>
+			<color r="ccColorA">3355443</color>
+		</prop>
+		<prop id="PROP3" index="9">
+			<file>caillou.square01.swf</file>
+			<x>149.875</x>
+			<y>246.4</y>
+			<xscale>1</xscale>
+			<yscale>0.05</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">0</color>
+		</prop>
+		<prop id="PROP71" index="13">
+			<file>caillou.restaurant_picture.swf</file>
+			<x>350.7</x>
+			<y>111.2</y>
+			<xscale>0.5823026</xscale>
+			<yscale>0.5823026</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP72" index="14">
+			<file>caillou.msp_window01.msp_window01_ncc_window01_day.swf</file>
+			<x>449.231478</x>
+			<y>101.425</y>
+			<xscale>0.6837709</xscale>
+			<yscale>0.6837709</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">621354</color>
+		</prop>
+		<prop id="PROP73" index="15">
+			<file>caillou.msp_bookshelf.msp_bookshelf_bookshelf_full.swf</file>
+			<x>556.775</x>
+			<y>192.3259732</y>
+			<xscale>0.5194634</xscale>
+			<yscale>0.5194634</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP74" index="16">
+			<file>caillou.lamp_table.swf</file>
+			<x>556.775</x>
+			<y>111.175</y>
+			<xscale>0.523256</xscale>
+			<yscale>0.523256</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">16698673</color>
+			<color r="ccColorB">16514043</color>
+		</prop>
+	</compositebg>
+	<compositebg id="ra_bedroom" name="Rosie's Bedroom" enable="Y" default="N" thumb="ra_bedroom.png" display_order="5" is_premium="N" money="0" sharing="0">
+		<bg id="cbg_ncc_gbrm_BG7" index="0">
+			<file>caillou.wall17.swf</file>
+			<color r="ccColorA">28415</color>
+			<color r="ccColorB">39423</color>
+			<color r="ccColorC">16514043</color>
+		</bg>
+		<prop id="PROP118" index="8" attached="Y">
+			<file>caillou.ncc_gbseat.swf</file>
+			<x>56.6</x>
+			<y>321.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">28415</color>
+		</prop>
+		<prop id="PROP120" index="7" attached="Y">
+			<file>caillou.msp_desk.msp_desk_ncc_gbdesk01.swf</file>
+			<x>508.6</x>
+			<y>147.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">39423</color>
+		</prop>
+		<prop id="PROP121" index="6" attached="Y">
+			<file>caillou.msp_gbblanket01.msp_gbblanket01_ncc_gbblanket01empty_front.swf</file>
+			<x>174.6</x>
+			<y>259.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">39423</color>
+			<color r="ccColorB">39423</color>
+		</prop>
+		<prop id="PROP122" index="5" attached="Y">
+			<file>caillou.msp_pillow02.msp_pillow02_ncc_pillow02_front.swf</file>
+			<x>272.7</x>
+			<y>184.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">39423</color>
+		</prop>
+		<prop id="PROP123" index="4" attached="Y">
+			<file>caillou.msp_gbstand.msp_gbstand_ncc_gbstand03.swf</file>
+			<x>380.7</x>
+			<y>82.525</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP124" index="3" attached="Y">
+			<file>caillou.msp_gbstand.msp_gbstand_ncc_gbstand03.swf</file>
+			<x>248.7</x>
+			<y>82.425</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP125" index="2" attached="Y">
+			<file>caillou.msp_bed.msp_bed_ncc_gbbed_front.swf</file>
+			<x>207.7</x>
+			<y>218.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP126" index="1" attached="Y">
+			<file>caillou.msp_gbwindow.msp_gbwindow_ncc_gbwindow_side01.swf</file>
+			<x>17.6</x>
+			<y>138.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">39423</color>
+			<color r="ccColorB">39423</color>
+			<color r="ccColorC">39423</color>
+		</prop>
+		<prop id="PROP60" index="9">
+			<file>caillou.msp_bosscha.msp_bosscha_ncc_boss_chair_front.swf</file>
+			<x>434.4451499</x>
+			<y>218.075</y>
+			<xscale>0.9128873</xscale>
+			<yscale>0.9128873</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">28415</color>
+		</prop>
+	</compositebg>
+	<compositebg id="cc_bedroom" name="Classic Caillou's Bedroom" enable="Y" default="N" thumb="cc_bedroom.png" display_order="6" is_premium="N" money="0" sharing="0">
+		<bg id="cbg_ncc_gbrm_BG7" index="0">
+			<file>caillou.wall17.swf</file>
+			<color r="ccColorA">10066329</color>
+			<color r="ccColorB">8026746</color>
+			<color r="ccColorC">10066329</color>
+			<color r="ccColorD">8026746</color>
+		</bg>
+		<prop id="PROP121" index="4" attached="Y">
+			<file>caillou.msp_blanket01.msp_blanket01_ncc_blanket01_front_empty.swf</file>
+			<x>164.9884015</x>
+			<y>248.5023374</y>
+			<xscale>0.9241636</xscale>
+			<yscale>0.878041</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">8026746</color>
+		</prop>
+		<prop id="PROP122" index="3" attached="Y">
+			<file>caillou.msp_pillow02.msp_pillow02_ncc_pillow02_front.swf</file>
+			<x>272.7</x>
+			<y>184.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">8026746</color>
+		</prop>
+		<prop id="PROP125" index="2" attached="Y">
+			<file>caillou.msp_bed.msp_bed_ncc_gbbed_front.swf</file>
+			<x>207.7</x>
+			<y>218.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+		</prop>
+		<prop id="PROP126" index="1" attached="Y">
+			<file>caillou.msp_gbwindow.msp_gbwindow_ncc_gbwindow_side01.swf</file>
+			<x>17.6</x>
+			<y>138.1</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">10066329</color>
+			<color r="ccColorB">10066329</color>
+			<color r="ccColorC">8026746</color>
+		</prop>
+		<prop id="PROP120" index="5" attached="Y">
+			<file>caillou.msp_office_desk.msp_office_desk_office_desk_front.swf</file>
+			<x>466.25</x>
+			<y>225.85</y>
+			<xscale>0.7653866</xscale>
+			<yscale>0.7653866</yscale>
+			<face>1</face>
+			<rotation>0</rotation>
+			<color r="ccColorA">9474192</color>
+		</prop>
+		<prop id="PROP41" index="6">
+			<file>caillou.office_chair.swf</file>
+			<x>403.8416667</x>
+			<y>231.125</y>
+			<xscale>1</xscale>
+			<yscale>1</yscale>
+			<face>-1</face>
+			<rotation>0</rotation>
+		</prop>
+	</compositebg>
+	<char id="400002002" name="Boris Anderson" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002002.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002001" name="Doris Anderson" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002001.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002011" name="Classic Caillou" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002011.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002005" name="Caillou Anderson" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002005.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002004" name="Rosie Anderson" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002004.png" copyable="Y">
+		<tags>family,_free,_cat:Caillou's Family</tags>
+	</char>
+	<char id="400002008" name="Clementine Smith" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002008.png" copyable="Y">
+		<tags>family,_free,_cat:Friends</tags>
+	</char>
+	<char id="400002010" name="Dora Marquez" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002010.png" copyable="Y">
+		<tags>family,_free,_cat:Friends</tags>
+	</char>
+	<char id="400002003" name="Leo Tubbler" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002003.png" copyable="Y">
+		<tags>family,_free,_cat:Friends</tags>
+	</char>
+	<char id="400002006" name="Ann Martin" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002006.png" copyable="Y">
+		<tags>family,_free,_cat:School</tags>
+	</char>
+	<char id="400002009" name="Sonya Clementine" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002009.png" copyable="Y">
+		<tags>family,_free,_cat:School</tags>
+	</char>
+	<char id="400002007" name="Florian" cc_theme_id="family" thumbnail_url="/stock_thumbs/400002007.png" copyable="Y">
+		<tags>family,_free,_cat:Contributors</tags>
+	</char>
+</theme>
